@@ -1,6 +1,6 @@
 /* comentário no CSS */
 body{
-	background-color: #ABC7E3; /* Professor optou por LightGrey */
+	/*background-color: #ABC7E3;  Professor optou por LightGrey */
 	background-color: #2A547E;
 }
 header{
@@ -52,13 +52,42 @@ nav a{
 }
 /* ref cor https://colors.artyclick.com/color-shades-finder/?color=#C1D1DE */
 
-.sepia{
+.figura img{
 	width: 50%;
 	height: 50%;
 	border-radius: 30%;
-	border: 0.4rem solid black;
-	filter: sepia(80%);
-	-webkit-box-reflect: left;
+	border: 0.2rem solid black;
 	margin-left: auto;
 	display: block;
+}
+.figura figcaption{
+	padding-top: 1rem;
+	padding-left: 5rem;
+	margin-left: 50%;
+}
+
+.sepia{
+	filter: sepia(80%);
+	-webkit-box-reflect: left;
+	/*-moz-transform: scaleX(-1);*/
+}
+
+.desfocado{
+	filter: blur(0.22rem); 
+}
+
+.sombra{
+	/*filter: drop-shadow(0.25rem 0.75rem 0.70rem orange);*/
+	box-shadow: 0.25rem 0.75rem 0.70rem #2A547E; 
+}
+
+.rodape{
+	height: 3.5rem;
+	margin: auto;
+	background-color: #CDDEEE;
+	text-align: center;
+	
+}
+.rodape p{
+	padding-top: 0.6rem;
 }
