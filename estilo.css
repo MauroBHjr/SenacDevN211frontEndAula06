@@ -1,9 +1,10 @@
 /* comentário no CSS */
 body{
-	background-color: DimGrey; /* Professor optou por LightGrey */
+	background-color: #ABC7E3; /* Professor optou por LightGrey */
+	background-color: #2A547E;
 }
 header{
-	background-color: #87929B;
+	background-color: #CDDEEE;
 	color: white;
 	font-family: Verdana;
 	height: 10rem;
@@ -16,9 +17,9 @@ header{
 	text-shadow: 4px 4px 8px #000000;
 }
 nav{
-	background-color: #C1D1DE;
-	border: 0.2rem double #87929B;
-	color: #87929B;
+	background-color: #ABC7E3;
+	border: 0.2rem double #CDDEEE;
+	color: #CDDEEE;
 	text-align: center;
 	font-family: Arial Black;
 }
@@ -29,10 +30,35 @@ nav ul li{
 }
 nav a{
 	text-decoration: none;
-	color: #F8FAFC;
+	color: #366BA1;
 }
 .main{
-	
-	background-color: #747D85;
-	
+	background-color: #ABC7E3;
+	height: auto;
+	margin: auto;
+}
+
+.artigo{
+	margin-left: 2.5rem;
+	margin-right: 2rem;
+	margin-top: 1rem;
+	padding-top: 1rem;
+	text-align: justify;
+	text-indent: 2rem;
+}
+
+.figura{
+	margin-left: 5rem;
+}
+/* ref cor https://colors.artyclick.com/color-shades-finder/?color=#C1D1DE */
+
+.sepia{
+	width: 50%;
+	height: 50%;
+	border-radius: 30%;
+	border: 0.4rem solid black;
+	filter: sepia(80%);
+	-webkit-box-reflect: left;
+	margin-left: auto;
+	display: block;
 }
