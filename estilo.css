@@ -1,0 +1,38 @@
+/* comentário no CSS */
+body{
+	background-color: DimGrey; /* Professor optou por LightGrey */
+}
+header{
+	background-color: #87929B;
+	color: white;
+	font-family: Verdana;
+	height: 10rem;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	text-align: center;
+	color: white;
+	font-family: Verdana;
+	font-size: 2rem;
+	text-shadow: 4px 4px 8px #000000;
+}
+nav{
+	background-color: #C1D1DE;
+	border: 0.2rem double #87929B;
+	color: #87929B;
+	text-align: center;
+	font-family: Arial Black;
+}
+nav ul li{
+	text-decoration: none;
+	display: inline;
+	padding: 8%;
+}
+nav a{
+	text-decoration: none;
+	color: #F8FAFC;
+}
+.main{
+	
+	background-color: #747D85;
+	
+}
